@@ -1,0 +1,36 @@
+.grid {
+  display: grid;
+  width: 100%;
+  max-width: 1400px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+footer,
+header {
+  width: 100vw;
+  background-color: rgb(46, 53, 61);
+  color: white;
+  min-height: 60px;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer img {
+  border-radius: 50%;
+  height: 50px;
+}
+
+footer p {
+  max-width: 400px;
+  margin: 10px;
+}
+
+footer a {
+  color: red;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: white;
+}
