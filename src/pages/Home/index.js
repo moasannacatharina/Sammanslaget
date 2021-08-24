@@ -7,8 +7,17 @@ const Home = () => {
   return (
     <>
       <div className="book">
-        <HTMLFlipBook width={500} height={700} showCover={true}>
-          <FrontPage>The life of Mika</FrontPage>
+        <HTMLFlipBook
+          width={500}
+          height={700}
+          minWidth={315}
+          maxWidth={500}
+          minHeight={400}
+          maxHeight={700}
+          maxShadowOpacity={0.5}
+          showCover={true}
+        >
+          <FrontPage>Mika</FrontPage>
           <Page number="1" header="Start"></Page>
           <Page number="2" header="hehe" even="true"></Page>
           <Page number="3" header="snart slut"></Page>
