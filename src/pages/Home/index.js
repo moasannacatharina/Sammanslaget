@@ -8,11 +8,16 @@ const Home = () => {
     <>
       <div className="book">
         <HTMLFlipBook width={500} height={700} showCover={true}>
-          <FrontPage>The book's title</FrontPage>
+          <FrontPage>The life of Mika</FrontPage>
           <Page number="1" header="Start"></Page>
           <Page number="2" header="hehe" even="true"></Page>
           <Page number="3" header="snart slut"></Page>
-          <Page number="4" header="the END" even="true"></Page>
+          <Page number="4" header="nästan" even="true"></Page>
+          <Page number="5" header="snart slut"></Page>
+          <Page number="6" header="nästan" even="true"></Page>
+          <Page number="7" header="snart slut"></Page>
+          <Page number="8" header="nästan" even="true"></Page>
+          <FrontPage>The End</FrontPage>
         </HTMLFlipBook>
       </div>
     </>
