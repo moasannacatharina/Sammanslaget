@@ -51,7 +51,7 @@ const About = () => {
           YRGO yh-utbildning är vår gemensamma nämnare. Gå in på yrgo.se för att
           få veta mer om våra utbildningar!
         </p>
-        <a href="https://yrgo.se">Go! →</a>
+        <a href="https://yrgo.se">GO! →</a>
       </footer>
     </>
   );
