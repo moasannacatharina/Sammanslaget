@@ -1,22 +1,19 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { Router } from "@reach/router";
+import Navigation from "./components/Navigation";
+import Home from "./pages/Home";
+import About from "./pages/About";
 
-import HTMLFlipBook from "react-pageflip";
-import Page from "./components/page";
-
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <HTMLFlipBook width={300} height={500}>
-        <Page number="1" header="Start">
-          HELLO
-        </Page>
-        <Page number="2" header="hehe"></Page>
-        <Page number="3" header="snart slut"></Page>
-        <Page number="4" header="the END"></Page>
-      </HTMLFlipBook>
+      <Navigation />
+      <Router>
+        <Home path="/" />
+        <About path="/about" />
+      </Router>
     </div>
   );
-}
+};
 
 export default App;
