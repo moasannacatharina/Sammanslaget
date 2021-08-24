@@ -1,3 +1,19 @@
+/* Räddningsmissions färger:
+#e07c3e
+#686569
+#009392
+#005e64
+
+#cdc7b4
+#f6cd2d
+*/
+
+@font-face {
+  font-family: "LGrotesque-Regular";
+  src: local("LGrotesque-Regular"),
+    url(./assets/fonts/LGrotesque-Regular.woff2) format("woff2");
+}
+
 .App {
   /* text-align: center;
   display: flex;

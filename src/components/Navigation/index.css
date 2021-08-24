@@ -1,6 +1,6 @@
 nav {
   height: 80px;
-  background-color: #f4f4f4;
+  background-color: #f8f5ec;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -9,9 +9,9 @@ nav {
 .link {
   text-decoration: none;
   font-size: 36px;
-  color: #4e4e4e;
+  color: #686569;
 }
 
 .link:hover {
-  color: #202020;
+  color: #005e64;
 }
