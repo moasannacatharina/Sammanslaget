@@ -1,17 +1,19 @@
 nav {
-  height: 80px;
-  background-color: #f8f5ec;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  width: 100vw;
 }
 
 .link {
   text-decoration: none;
-  font-size: 36px;
-  color: #686569;
+  color: #e0e0e0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 15px;
 }
 
 .link:hover {
-  color: #005e64;
+  color: #ccdbfd;
+  text-decoration: underline;
 }

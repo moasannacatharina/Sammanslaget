@@ -9,5 +9,10 @@
 }
 .page-text {
   padding: 45px;
-  font-family: LGrotesque-Regular;
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 27px;
+}
+img {
+  max-width: 80%;
 }
