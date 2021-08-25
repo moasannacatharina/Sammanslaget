@@ -21,10 +21,6 @@
 
 .false {
   animation: appear 3s ease;
-  /* animation-name: appear;
-  animation-duration: 3s;
-  animation-timing-function: ease;
-  animation-delay: 2s; */
   opacity: 1;
 }
 
