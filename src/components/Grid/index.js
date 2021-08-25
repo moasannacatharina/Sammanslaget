@@ -1,4 +1,5 @@
 import "./index.css";
+import image from "../../assets/images/yrgo.png";
 
 import Card from "../Card";
 
@@ -7,35 +8,35 @@ const Grid = () => {
     <div className="grid">
       <Card
         title="Lena Last UX-designer"
-        img="heheh"
+        img={image}
         info="Jag är en trevlig prick"
         email="mail@gmail.com"
         color="#FFF0C3"
       />
       <Card
         title="Daniel Bradshaw Manusförfattare"
-        img="heheh"
+        img={image}
         info="HEJ!"
         email="mail@gmail.com"
         color="#FCD5CE"
       />
       <Card
         title="Oscar Elmgren Game Artist"
-        img="heheh"
+        img={image}
         info="HEJ!"
         email="mail@gmail.com"
         color="#D8E2DC"
       />
       <Card
         title="Réka Madarász Webbutvecklare"
-        img="heheh"
+        img={image}
         info="HEJ!"
         email="mail@gmail.com"
         color="#CDB4DB"
       />
       <Card
         title="Moa Berg Webbutvecklare"
-        img="heheh"
+        img={image}
         info="HEJ!"
         email="mail@gmail.com"
         color="#CCDBFD"

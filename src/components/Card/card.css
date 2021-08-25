@@ -1,3 +1,13 @@
 .card {
   padding: 10px;
 }
+
+.contact {
+  display: flex;
+}
+
+.contact img {
+  border-radius: 50%;
+  height: 60px;
+  margin: 15px;
+}
