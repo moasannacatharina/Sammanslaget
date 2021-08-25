@@ -3,14 +3,27 @@ import { Link } from "@reach/router";
 import "./index.css";
 
 const Navigation = () => {
+  const NavLink = (props) => (
+    <Link
+      {...props}
+      getProps={({ isCurrent }) => {
+        return {
+          style: {
+            color: isCurrent ? "#ccdbfd" : "#e0e0e0",
+            textDecoration: isCurrent ? "underline" : "none",
+          },
+        };
+      }}
+    />
+  );
   return (
     <nav>
-      <Link className="link" to="/">
+      <NavLink className="link" to="/">
         Berättelsen
-      </Link>
-      <Link className="link" to="/about">
+      </NavLink>
+      <NavLink className="link" to="/about">
         Skaparna
-      </Link>
+      </NavLink>
     </nav>
   );
 };

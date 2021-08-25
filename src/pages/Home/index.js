@@ -13,9 +13,8 @@ const Home = () => {
 
   const [isPlaying, setIsPlaying] = React.useState(true);
 
-  console.log(visible);
   return (
-    <div className="content" style={{ position: "relative" }}>
+    <div className="content">
       <ClosedBook
         handleClick={() => {
           setVisible("true");
@@ -23,6 +22,7 @@ const Home = () => {
         }}
         visible={visible}
       />
+
       <div className={`book ${invisible}`}>
         <Book />
       </div>

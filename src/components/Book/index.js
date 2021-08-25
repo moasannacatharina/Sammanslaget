@@ -13,7 +13,7 @@ const Book = () => {
   return (
     <HTMLFlipBook
       width={500}
-      height={700}
+      height={600}
       minWidth={315}
       maxWidth={500}
       minHeight={400}
@@ -25,7 +25,7 @@ const Book = () => {
       <Page
         number="1"
         header="Start"
-        children="Det här är berättelsen om ett ungt regnmoln, ett moln med framtidsutsikter och hopp om livet. Det är också berättelsen om hur det ibland kan vara tufft att ta motgångar och hur tufft det är att resa sig upp igen på egen hand och om hur en knuff i rätt rikning kan vara helt avgörande. Det här är berättelsen som vi valt att kalla “Utlämande Mika”."
+        children="Det här är berättelsen om ett ungt regnmoln, ett moln med framtidsutsikter och hopp om livet."
         image={gif1}
       ></Page>
       <Page number="2" header="Akt 1" even="even"></Page>

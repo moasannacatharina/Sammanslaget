@@ -1,5 +1,6 @@
 nav {
   width: 100vw;
+  padding: 10px 0;
 }
 
 .link {
@@ -11,9 +12,4 @@ nav {
   font-size: 14px;
   line-height: 21px;
   padding: 15px;
-}
-
-.link:hover {
-  color: #ccdbfd;
-  text-decoration: underline;
 }

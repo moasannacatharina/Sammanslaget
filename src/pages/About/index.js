@@ -6,7 +6,7 @@ import Grid from "../../components/Grid";
 const About = () => {
   return (
     <div className="about-container">
-      <header>Vi som skapat "Utelämnade Mika"</header>
+      <header>Vi som skapat Molnet Mika</header>
       <Grid />
       <footer>
         <img src={image} alt="yrgo" />
