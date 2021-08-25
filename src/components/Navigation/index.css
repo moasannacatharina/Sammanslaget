@@ -1,18 +1,16 @@
 nav {
-  height: 80px;
   width: 100vw;
-  background-color: #f8f5ec;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 .link {
   text-decoration: none;
   font-size: 36px;
-  color: #686569;
+  color: #f0f0f0;
+  font-size: 18px;
+  padding: 15px;
 }
 
 .link:hover {
-  color: #005e64;
+  color: #395775;
+  text-decoration: underline;
 }

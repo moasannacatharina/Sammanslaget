@@ -11,3 +11,6 @@
   padding: 45px;
   font-family: LGrotesque-Regular;
 }
+img {
+  max-width: 80%;
+}
