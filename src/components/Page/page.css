@@ -1,0 +1,24 @@
+.demoPage {
+  position: relative;
+}
+
+.page-number {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+.page-text {
+  padding: 20px;
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+  white-space: pre-line;
+}
+
+.page-text::first-letter {
+  font-size: 200%;
+}
+.page-img {
+  max-width: 60%;
+}
