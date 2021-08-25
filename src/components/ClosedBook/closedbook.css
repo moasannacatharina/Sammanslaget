@@ -1,0 +1,10 @@
+/* .closed-book {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-40%);
+  width: 458px;
+} */
+.true {
+  opacity: 0;
+}
