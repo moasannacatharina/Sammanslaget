@@ -3,6 +3,8 @@ import HTMLFlipBook from "react-pageflip";
 import Page from "../Page";
 import FrontPage from "../FrontPage/";
 
+import gif1 from "../../assets/images/Gif01.gif";
+
 const Book = () => {
   const onFlip = useCallback((e) => {
     console.log("Current page: " + e.data);
@@ -11,20 +13,20 @@ const Book = () => {
   return (
     <HTMLFlipBook
       width={500}
-      height={600}
+      height={700}
       minWidth={315}
       maxWidth={500}
       minHeight={400}
       maxHeight={700}
       maxShadowOpacity={0.5}
-      showCover={true}
-      onFlip={onFlip}
+      showCover={false}
     >
-      <FrontPage>Mika</FrontPage>
+      {/* <FrontPage>Mika</FrontPage> */}
       <Page
         number="1"
-        // header="Start"
+        header="Start"
         children="Det här är berättelsen om ett ungt regnmoln, ett moln med framtidsutsikter och hopp om livet. Det är också berättelsen om hur det ibland kan vara tufft att ta motgångar och hur tufft det är att resa sig upp igen på egen hand och om hur en knuff i rätt rikning kan vara helt avgörande. Det här är berättelsen som vi valt att kalla “Utlämande Mika”."
+        image={gif1}
       ></Page>
       <Page number="2" header="Akt 1" even="even"></Page>
       <Page number="3" header="Akt 1"></Page>
