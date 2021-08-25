@@ -1,5 +1,6 @@
-import "./index.css";
+import "./grid.css";
 import image from "../../assets/images/yrgo.png";
+import rectangle from "../../assets/images/Rectangle.png";
 
 import Card from "../Card";
 
@@ -41,7 +42,9 @@ const Grid = () => {
         email="mail@gmail.com"
         color="#CCDBFD"
       />
-      <Card color="hotpink" />
+      <div className="rectangle-card">
+        <img src={rectangle} alt="cartoon brain with a set of weights" />
+      </div>
     </div>
   );
 };

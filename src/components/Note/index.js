@@ -1,13 +1,14 @@
 import React from "react";
-import image from "../../assets/images/music_icon.png";
-import "./index.css";
+import play from "../../assets/images/play.png";
+import mute from "../../assets/images/mute.png";
+import "./note.css";
 
 const Note = (props) => (
   <div
     onClick={props.handleOnClick}
-    className={`logo ${props.isPlaying && "logo--playing"}`}
+    className={`logo ${props.isPlaying && "logo-playing"}`}
   >
-    <img src={image} alt="logo" />
+    <img src={props.isPlaying ? play : mute} alt="logo" />
   </div>
 );
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "@reach/router";
-import "./index.css";
+import "./navigation.css";
 
 const Navigation = () => {
   const NavLink = (props) => (

@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./frontpage.css";
 
 const FrontPage = React.forwardRef((props, ref) => {
   return (
