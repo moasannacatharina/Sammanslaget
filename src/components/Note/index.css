@@ -1,0 +1,18 @@
+.logo {
+  animation: jump 0.4s ease alternate infinite;
+  animation-play-state: paused;
+}
+
+.logo.logo--playing {
+  animation-play-state: running;
+}
+
+@keyframes jump {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-10px);
+  }
+}

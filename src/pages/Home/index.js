@@ -3,12 +3,13 @@ import HTMLFlipBook from "react-pageflip";
 import Page from "../../components/page/index.js";
 import FrontPage from "../../components/FrontPage/index.js";
 import "./home.css";
-// import sound from "../../assets/sound/Simple-Book-Page-Turn-www.fesliyanstudios.com-www.fesliyanstudios.com.mp3";
+//import sound from "../../assets/sound/Simple-Book-Page-Turn.mp3";
 
 const Home = () => {
   const onFlip = useCallback((e) => {
     console.log("Current page: " + e.data);
   }, []);
+
   return (
     <>
       <div className="book">
