@@ -11,7 +11,7 @@ const Book = () => {
   return (
     <HTMLFlipBook
       width={500}
-      height={700}
+      height={600}
       minWidth={315}
       maxWidth={500}
       minHeight={400}

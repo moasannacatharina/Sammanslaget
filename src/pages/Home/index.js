@@ -13,7 +13,7 @@ const Home = () => {
 
   console.log(visible);
   return (
-    <div>
+    <div style={{ position: "relative" }}>
       <ClosedBook
         handleClick={() => {
           setVisible("true");

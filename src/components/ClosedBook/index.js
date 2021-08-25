@@ -1,9 +1,11 @@
 import "./closedbook.css";
+import image from "../../assets/images/book.svg";
 
 const ClosedBook = ({ handleClick, visible }) => {
   return (
     <div onClick={handleClick}>
-      <svg
+      <img src={image} className={`closed-book ${visible}`} alt="book cover" />
+      {/* <svg
         width="485"
         height="399"
         viewBox="0 0 485 399"
@@ -50,7 +52,7 @@ const ClosedBook = ({ handleClick, visible }) => {
           y2="398.096"
           stroke="black"
         />
-      </svg>
+      </svg> */}
     </div>
   );
 };
