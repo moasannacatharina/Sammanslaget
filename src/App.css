@@ -25,16 +25,20 @@
   background: linear-gradient(
     90deg,
     #f4f4f4 1.09%,
-    rgba(98, 95, 95, 0.78) 100%
+    rgba(138, 135, 135, 0.78) 100%
   );
   box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.51);
 }
 
 .even {
-  background: linear-gradient(90deg, rgba(98, 95, 95, 0.78) 0%, #f4f4f4 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(138, 135, 135, 0.78) 0%,
+    #f4f4f4 100%
+  );
   box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.51);
 }
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -67,4 +71,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
