@@ -5,7 +5,7 @@ import Grid from "../../components/Grid";
 
 const About = () => {
   return (
-    <>
+    <div className="about-container">
       <header>Vi som skapat "Utelämnade Mika"</header>
       <Grid />
       <footer>
@@ -16,7 +16,7 @@ const About = () => {
         </p>
         <a href="https://yrgo.se">GO! →</a>
       </footer>
-    </>
+    </div>
   );
 };
 

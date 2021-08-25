@@ -2,15 +2,20 @@ import React, { useCallback } from "react";
 import HTMLFlipBook from "react-pageflip";
 import Page from "../../components/page/index.js";
 import FrontPage from "../../components/FrontPage/index.js";
+import Note from "../../components/Note/index.js";
 import "./home.css";
-// import sound from "../../assets/sound/Simple-Book-Page-Turn-www.fesliyanstudios.com-www.fesliyanstudios.com.mp3";
+//import sound from "../../assets/sound/Simple-Book-Page-Turn.mp3";
+import music from "../../assets/sound/my-life-main.mp3";
+import gif1 from "../../assets/images/Gif01.gif";
 
 const Home = () => {
+  const [isPlaying, setIsPlaying] = React.useState(true);
   const onFlip = useCallback((e) => {
     console.log("Current page: " + e.data);
   }, []);
+
   return (
-    <>
+    <div className="content">
       <div className="book">
         <HTMLFlipBook
           width={500}
@@ -28,6 +33,7 @@ const Home = () => {
             number="1"
             // header="Start"
             children="Det här är berättelsen om ett ungt regnmoln, ett moln med framtidsutsikter och hopp om livet. Det är också berättelsen om hur det ibland kan vara tufft att ta motgångar och hur tufft det är att resa sig upp igen på egen hand och om hur en knuff i rätt rikning kan vara helt avgörande. Det här är berättelsen som vi valt att kalla “Utlämande Mika”."
+            image={gif1}
           ></Page>
           <Page number="2" header="Akt 1" even="even"></Page>
           <Page number="3" header="Akt 1"></Page>
@@ -39,7 +45,14 @@ const Home = () => {
           <FrontPage></FrontPage>
         </HTMLFlipBook>
       </div>
-    </>
+      <div className="player">
+        <Note
+          isPlaying={isPlaying}
+          handleOnClick={() => setIsPlaying(!isPlaying)}
+        />
+        <audio src={music} muted={!isPlaying} autoPlay={true} />
+      </div>
+    </div>
   );
 };
 
