@@ -4,13 +4,16 @@ nav {
 
 .link {
   text-decoration: none;
-  font-size: 36px;
-  color: #f0f0f0;
-  font-size: 18px;
+  color: #e0e0e0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
   padding: 15px;
 }
 
 .link:hover {
-  color: #395775;
+  color: #ccdbfd;
   text-decoration: underline;
 }

@@ -1,18 +1,4 @@
-/* Räddningsmissions färger:
-#e07c3e
-#686569
-#009392
-#005e64
-
-#cdc7b4
-#f6cd2d
-*/
-
-@font-face {
-  font-family: "LGrotesque-Regular";
-  src: local("LGrotesque-Regular"),
-    url(./assets/fonts/LGrotesque-Regular.woff2) format("woff2");
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 .App {
   /* text-align: center;
@@ -20,8 +6,13 @@
   justify-content: center;
   align-items: center; */
   min-height: 100vh;
-  background: rgb(121, 154, 227);
-  background: linear-gradient(0deg, rgb(63, 93, 156) 0%, rgb(7, 3, 71) 100%);
+  background: linear-gradient(
+    180deg,
+    #0d2544 0%,
+    rgba(16, 46, 86, 0.875) 79.17%,
+    rgba(32, 60, 103, 0.76) 99.99%,
+    rgba(34, 63, 109, 0) 100%
+  );
 }
 .demoPage {
   background: linear-gradient(
