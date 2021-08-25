@@ -1,11 +1,13 @@
 import React from "react";
+import "./index.css";
 
 const Page = React.forwardRef((props, ref) => {
   return (
     <div className={`demoPage ${props.even}`} ref={ref}>
       <h1>{props.header}</h1>
-      <p>{props.children}</p>
-      <p>Page number: {props.number}</p>
+      {/* <img src={props.image} alt="pic of Mika" /> */}
+      <p className="page-text">{props.children}</p>
+      <p className="page-number">{props.number}</p>
     </div>
   );
 });

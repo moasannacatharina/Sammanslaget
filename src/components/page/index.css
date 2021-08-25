@@ -1,0 +1,13 @@
+.demoPage {
+  position: relative;
+}
+
+.page-number {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+.page-text {
+  padding: 45px;
+  font-family: LGrotesque-Regular;
+}
