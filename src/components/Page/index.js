@@ -4,6 +4,7 @@ import "./page.css";
 const Page = React.forwardRef((props, ref) => {
   return (
     <div className={`demoPage ${props.even}`} ref={ref}>
+      <div className={props.even ? "blob white" : "no-blob"}></div>
       <h1>{props.header}</h1>
       <img
         className="page-img"

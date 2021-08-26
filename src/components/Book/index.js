@@ -99,19 +99,17 @@ const Book = () => {
         och vresig.
         Mark beslutar att ta med Mika hem till sig för att hjälpa honom upp på fötterna igen.
         Mika är inledningsvis tveksam till att ta emot hjälp, men lugnet som Mark utstrålar och
-        respekten som han visar Mika gör att han successivt blir allt tryggare.
-        
-"
+        respekten som han visar Mika gör att han successivt blir allt tryggare."
       ></Page>
       <Page
         number="8"
         image={gif51}
+        even="even"
         children="Mark berättar att han tidigare i livet varit i samma situation som Mika men att även om
         det kan kännas hopplöst så måste Mika förstå att det finns hjälp att få men att man måste
         vara beredd att våga ta emot den.
         Under några intensiva månader så tränar Mika och Mark regelbundet ihop, de lyfter vikter,
-        springer och äter hälsosam kost.
-"
+        springer och äter hälsosam kost."
       ></Page>
       <Page
         number="9"
@@ -132,7 +130,6 @@ const Book = () => {
         image=""
         even="even"
       ></Page>
-
       <FrontPage></FrontPage>
     </HTMLFlipBook>
   );
