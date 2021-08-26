@@ -9,10 +9,6 @@
   opacity: 0;
 }
 
-.false {
-  display: none;
-}
-
 .blob {
   background: white;
   border-radius: 50%;
