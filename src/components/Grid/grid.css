@@ -1,0 +1,17 @@
+.grid {
+  display: grid;
+  width: 100%;
+  min-width: 100vw;
+  max-width: 1400px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.rectangle-card {
+  min-height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rectangle-card img {
+  width: 100%;
+  height: 100%;
+}
