@@ -1,5 +1,5 @@
 import "./closedbook.css";
-import image from "../../assets/images/bookcover.png";
+import image from "../../assets/images/bookcover_1_1.png";
 
 const ClosedBook = ({ handleClick, visible, invisible }) => {
   return (
