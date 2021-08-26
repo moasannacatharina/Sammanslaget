@@ -51,63 +51,98 @@ const Book = () => {
         header="Akt 1"
         even="even"
         image={gif2}
-        children="Det går undan när Mika ränner fram längs gatorna, han är ivrig inför mötet med chefen och sin stora befordran."
+        children="När Mika ränner fram längs gatorna går det undan, han skuttar fram i sin iver inför mötet med
+        chefen, idag ska han äntligen få sin välförtjänta befordran.
+        Som han har längtat!"
       ></Page>
       <Page
         number="3"
         header="Akt 2"
         image={gif3}
-        children="Väl på kontoret blir Mika blir överrumplad av chefens burdusa ton och den snabba vändningen.
-Istället för att bli befordrad blir Mika avskedad med omedelbar verkan."
+        children="Väl på kontoret blir Mika överrumplad av chefens burdusa ton
+        Mika kan känna av hur hela världen snurrar när chefen meddelar att Mika,
+        istället för att bli befordrad, får sparken med omedelbar verkan.
+        Det blir ett ohygglig nederlag för Mika."
       ></Page>
       <Page
         number="4"
         header="Akt 2"
         even="even"
         image={gif4}
-        children="I och med uppsägningen ställs Mikas liv på ända och i sin uppgivenhet och fattigdom tar han till flaskan."
+        children="I och med uppsägningen ställs Mikas liv på ända.
+        Mika saknar medel att ta sig samman och tappar så småningom fattningen.
+        I sin uppgivenhet och fattigdom tar han till flaskan medan räkningarna tornar upp sig.
+        Mika försöker i den mån han kan att repa sig men han klarar helt enkelt inte av att sköta
+        Motgången på egen hand. "
       ></Page>
       <Page
         number="5"
         header="Akt 3"
-        children="Mika blir av med sin lägenhet och hamnar på de kalla och hårda gatorna. Där strövar han omkring utan något mål eller riktning."
+        image=""
+        children={`Mika har nått botten, utan verktygen som krävs för att återhämta sig går allt utför.
+        Han blir i allt elände av med sin lägenhet och hamnar på de nakna och grymma gatorna som
+        inte är välkomnande mot någon.
+        Där strövar han omkring i sin ensamhet utan mål eller mening.
+        Det blir vår och det blir sommar, hösten passerar och vintern är sträng.
+
+\nTiden går och Mikas situation blir allt värre, om nätterna sover han på de parkbänkar han
+hittar.
+Han vet inte vart han ska vända sig eller vad han kan göra för att komma tillbaka upp på
+benen igen. Livet känns allt mer hopplöst.`}
       ></Page>
       <Page
         number="6"
         header="Akt 3"
         image={gif5}
         even="even"
-        children="Årstiderna passerar och Mika blir med tiden allt  mer missmodig. Han rakar sig inte och sover om nätterna på parkbänkar med ett lapptäcke han hittat i en soptunna.
+        children="
 "
       ></Page>
       <Page
         number="7"
         header="Akt 4"
         image={gif6}
-        children="En dag springer Mark plötsligt på Mika och tar med honom hem.
+        children="En dag springer en godhjärtad kille vid namn Mark plötsligt på Mika.
+        Mark känner medlidande och ömhet för Mika som utan varken kärlek eller närhet blivit utstött
+        och vresig.
+        Mark beslutar att ta med Mika hem till sig för att hjälpa honom upp på fötterna igen.
+        Mika är inledningsvis tveksam till att ta emot hjälp, men lugnet som Mark utstrålar och
+        respekten som han visar Mika gör att han successivt blir allt tryggare.
+        
 "
       ></Page>
       <Page
         number="8"
         header="Akt 4"
         image={gif51}
-        children="En dag springer Mark plötsligt på Mika och tar med honom hem.
+        children="Mark berättar att han tidigare i livet varit i samma situation som Mika men att även om
+        det kan kännas hopplöst så måste Mika förstå att det finns hjälp att få men att man måste
+        vara beredd att våga ta emot den.
+        Under några intensiva månader så tränar Mike och Mark regelbundet ihop, de lyfter vikter,
+        springer och äter hälsosam kost.
 "
       ></Page>
       <Page
         number="9"
         header="Akt 4"
         image={gif7}
-        children="Efter vistelsen hos Mark förändras  Mikas liv till det bättre. Glad i hågen"
+        children="Med tiden blir Mika mer och mer lik sitt gamla frodiga jag och de båda blir goda vänner.
+        Efter vistelsen hos Mark förändras Mikas liv till det bättre. Glad i hågen och med nytt mod
+        kan Mika med hjälpen från sin nya vän återgå till sitt självgående liv, men den här gången är
+        han stärkt av vetskapen att det alltid finns hjälp runt hörnet för den som behöver det."
       ></Page>
       <Page
         number="10"
         header="The End"
-        children="A nice goodbye ♡"
+        children={`Om du eller någon du stöter på befinner dig i en liknande situation som Mikas så finns det
+        alltid hjälp att få. Räddningsmissionen bedriver ett 30-tal olika verksamheter för att hjälpa
+        utsatta i samhället. 
+        \nDe jobbar med akuta, långsiktiga samt förebyggande insatser.
+        \nBesök deras hemsida på raddningsmissonen.se. ♡`}
         image=""
         even="even"
       ></Page>
-      <Page number="11" image=""></Page>
+
       <FrontPage></FrontPage>
     </HTMLFlipBook>
   );
