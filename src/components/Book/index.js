@@ -10,6 +10,7 @@ import gif4 from "../../assets/images/Gif04.gif";
 import gif5 from "../../assets/images/Gif05.gif";
 import gif6 from "../../assets/images/Gif06.gif";
 import gif7 from "../../assets/images/Gif07.gif";
+import gif51 from "../../assets/images/Gif5.5.gif";
 
 const Book = () => {
   return (
@@ -30,8 +31,13 @@ const Book = () => {
         image=""
         even="even"
         header="Förord"
-        children={`Vi alla har någon gång känt oss utanför. Det finns dom som är utanför på ett sätt som blir förödande och kräver medmänsklighet för att övervinna. 
-        \nHär får du följa Mika, hur hens liv tog en riktning hen aldrig kunde föreställa sig och att med kärlek kan vi alla få ett värdigare liv.
+        children={`Alla har vi någon gång känt oss utanför på något sätt. För vissa personer kan utanförskapet
+        bli förödande och då krävs det medmänsklighet för att man ska kunna komma tillbaka upp på
+        fötterna.
+        \nI den här berättelsen får vi lära känna Molnet Mika vars liv en dag tog en plötslig vändning
+        helt ur det blå.
+        \nDet här är en berättelse om vikten av kärlek och betydelsen av medmänsklighet för att
+        människor ska kunna leva ett värdigt liv.
         \nVarsågod och börja ♡`}
       ></Page>
       <Page
@@ -84,16 +90,24 @@ Istället för att bli befordrad blir Mika avskedad med omedelbar verkan."
       <Page
         number="8"
         header="Akt 4"
+        image={gif51}
+        children="En dag springer Mark plötsligt på Mika och tar med honom hem.
+"
+      ></Page>
+      <Page
+        number="9"
+        header="Akt 4"
         image={gif7}
         children="Efter vistelsen hos Mark förändras  Mikas liv till det bättre. Glad i hågen"
       ></Page>
       <Page
-        number="9"
+        number="10"
         header="The End"
         children="A nice goodbye ♡"
         image=""
+        even="even"
       ></Page>
-      <Page number="10" even="even" image=""></Page>
+      <Page number="11" image=""></Page>
       <FrontPage></FrontPage>
     </HTMLFlipBook>
   );
