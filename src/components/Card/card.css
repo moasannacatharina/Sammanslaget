@@ -19,9 +19,13 @@
   font-size: 18px;
   font-weight: 300;
 }
-
-.contact img {
-  border-radius: 50%;
+.img-container {
+  width: 80px;
   height: 80px;
+  border-radius: 50%;
   margin: 15px;
+  overflow: hidden;
+}
+.contact img {
+  width: 100%;
 }

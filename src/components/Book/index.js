@@ -58,7 +58,7 @@ const Book = () => {
       <Page
         number="3"
         image={gif3}
-        children="Väl på kontoret blir Mika överrumplad av chefens burdusa ton
+        children="Väl på kontoret blir Mika överrumplad av chefens burdusa ton.
         Mika kan känna av hur hela världen snurrar när chefen meddelar att Mika,
         istället för att bli befordrad, får sparken med omedelbar verkan.
         Det blir ett ohygglig nederlag för Mika."

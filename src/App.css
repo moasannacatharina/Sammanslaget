@@ -51,5 +51,7 @@ body {
 }
 
 .player {
-  margin-top: -50px;
+  position: fixed;
+  top: 700px;
+  left: 20px;
 }

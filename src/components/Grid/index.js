@@ -1,6 +1,6 @@
 import "./grid.css";
 //import image from "../../assets/images/yrgo.png";
-import rectangle from "../../assets/images/Rectangle.png";
+import mika from "../../assets/images/Mika-About.png";
 import daniel from "../../assets/images/daniel.jpeg";
 import lena from "../../assets/images/lena.jpg";
 import moa from "../../assets/images/moa-min.jpeg";
@@ -24,10 +24,10 @@ const Grid = () => {
         color="#FFF0C3"
       />
       <Card
-        name="Daniel Bradshaw"
+        name="Daniel Bradshaw Thorell"
         title="Manusförfattare"
         img={daniel}
-        info="Ethical squid yuccie, fingerstache farm-to-table swag 90's green juice jean shorts pug gochujang. Tilde snackwave selvage echo park, lomo offal kombucha 8-bit listicle pickled fanny pack pork belly normcore sartorial waistcoat. "
+        info="Som manusförfattare i det här projektet har min roll inneburit att utveckla berättelsen samt narrativ. I samarbete med Game Artist har jag hjälpt till att skissa upp bilder i relation till texterna och under projektets gång utbytt idéer av hur illustrationerna ska korrelera med texten."
         email="daniel.bradshaw.thorell@gmail.com"
         color="#FCD5CE"
       />
@@ -35,7 +35,7 @@ const Grid = () => {
         name="Oscar Elmgren"
         title="Game Artist"
         img={oscar}
-        info="Ethical squid yuccie, fingerstache farm-to-table swag 90's green juice jean shorts pug gochujang. Tilde snackwave selvage echo park, lomo offal kombucha 8-bit listicle pickled fanny pack pork belly normcore sartorial waistcoat. "
+        info="I min roll som Game Artist i det här projektet har jag ritat och animerat bilder.  Jag har tillsammans med manusförfattaren utvecklat storyn  och  animerat GIF:ar så att de ska överensstämma med texterna."
         email="oscar.elmgren@gmail.com"
         color="#D8E2DC"
       />
@@ -43,7 +43,7 @@ const Grid = () => {
         name="Réka Madarász"
         title="Webbutvecklare"
         img={reka}
-        info="Ethical squid yuccie, fingerstache farm-to-table swag 90's green juice jean shorts pug gochujang. Tilde snackwave selvage echo park, lomo offal kombucha 8-bit listicle pickled fanny pack pork belly normcore sartorial waistcoat. "
+        info="Som webbutvecklare hade jag uppgiften att utveckla interaktivitet, implementera design från UX utvecklaren, integrera bilder och text från Game Artist samt Manusförfattare och att möjliggöra att bidraget kan existera på webben. Jag deltog i idéprocessen var vi kom på överens om tema och design och hur sidan ska se ut."
         email="mreka91@gmail.com"
         color="#CDB4DB"
       />
@@ -57,7 +57,7 @@ const Grid = () => {
         color="#CCDBFD"
       />
       <div className="rectangle-card">
-        <img src={rectangle} alt="cartoon brain with a set of weights" />
+        <img src={mika} alt="Mika walking away with briefcase" />
       </div>
     </div>
   );

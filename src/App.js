@@ -14,10 +14,9 @@ const App = () => {
   return (
     <div className="App">
       <Navigation />
-      <Router>
+      <Router primary={false}>
         <Home path="/" />
         <About path="/about" />
-        <OpenBook path="/book" />
       </Router>
 
       <div className="player">
