@@ -16,7 +16,10 @@ const Grid = () => {
         name="Lena Last"
         title="UX-designer"
         img={lena}
-        info="Ethical squid yuccie, fingerstache farm-to-table swag 90's green juice jean shorts pug gochujang. Tilde snackwave selvage echo park, lomo offal kombucha 8-bit listicle pickled fanny pack pork belly normcore sartorial waistcoat. "
+        info="I rollen som UX-designer tog jag lead i vårt team och började med att starta en idégenereringsprocess. När grundidén var på plats delade jag in oss i mindre team och påbörjade arbetet. 
+        Jag gjorde digitala skisser och grafisk profil i Figma och delade min helhetsvision med teamet som sedan webbutvecklarna fick implementera. 
+        
+        Eftersom jag har en bakgrund i webbutveckling, stöttade jag webbutvecklarna där det behövdes. Jag tog även beslut i avgränsningar och riktning vid behov för att inte fastna i processen och möta deadline. "
         email="lenalast@gmail.com"
         color="#FFF0C3"
       />
@@ -48,7 +51,8 @@ const Grid = () => {
         name="Moa Berg"
         title="Webbutvecklare"
         img={moa}
-        info="Ethical squid yuccie, fingerstache farm-to-table swag 90's green juice jean shorts pug gochujang. Tilde snackwave selvage echo park, lomo offal kombucha 8-bit listicle pickled fanny pack pork belly normcore sartorial waistcoat. "
+        info="Som webbutvecklare i detta projekt har mina uppgifter bestått i att ta teamets idéer och anpassa dem till webben. 
+        Tillsammans med Réka har jag skapat en projektstruktur i React och implementerat tillverkade delar som text och bilder, styling och andra grafiska element som försetts av vår UX-designer, Game Artist och Manusförfattare. Jag har även arbetat med att göra vår hemsida interaktiv och löst hosting av hemsidan så att den kan avnjutas av alla."
         email="bergmoa@gmail.com"
         color="#CCDBFD"
       />
