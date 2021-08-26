@@ -13,35 +13,40 @@ const Grid = () => {
   return (
     <div className="grid">
       <Card
-        title="Lena Last UX-designer"
+        name="Lena Last"
+        title="UX-designer"
         img={lena}
         info="Ethical squid yuccie, fingerstache farm-to-table swag 90's green juice jean shorts pug gochujang. Tilde snackwave selvage echo park, lomo offal kombucha 8-bit listicle pickled fanny pack pork belly normcore sartorial waistcoat. "
         email="lenalast@gmail.com"
         color="#FFF0C3"
       />
       <Card
-        title="Daniel Bradshaw Manusförfattare"
+        name="Daniel Bradshaw"
+        title="Manusförfattare"
         img={daniel}
         info="Ethical squid yuccie, fingerstache farm-to-table swag 90's green juice jean shorts pug gochujang. Tilde snackwave selvage echo park, lomo offal kombucha 8-bit listicle pickled fanny pack pork belly normcore sartorial waistcoat. "
         email="daniel.bradshaw.thorell@gmail.com"
         color="#FCD5CE"
       />
       <Card
-        title="Oscar Elmgren Game Artist"
+        name="Oscar Elmgren"
+        title="Game Artist"
         img={oscar}
         info="Ethical squid yuccie, fingerstache farm-to-table swag 90's green juice jean shorts pug gochujang. Tilde snackwave selvage echo park, lomo offal kombucha 8-bit listicle pickled fanny pack pork belly normcore sartorial waistcoat. "
         email="oscar.elmgren@gmail.com"
         color="#D8E2DC"
       />
       <Card
-        title="Réka Madarász Webbutvecklare"
+        name="Réka Madarász"
+        title="Webbutvecklare"
         img={reka}
         info="Ethical squid yuccie, fingerstache farm-to-table swag 90's green juice jean shorts pug gochujang. Tilde snackwave selvage echo park, lomo offal kombucha 8-bit listicle pickled fanny pack pork belly normcore sartorial waistcoat. "
         email="mreka91@gmail.com"
         color="#CDB4DB"
       />
       <Card
-        title="Moa Berg Webbutvecklare"
+        name="Moa Berg"
+        title="Webbutvecklare"
         img={moa}
         info="Ethical squid yuccie, fingerstache farm-to-table swag 90's green juice jean shorts pug gochujang. Tilde snackwave selvage echo park, lomo offal kombucha 8-bit listicle pickled fanny pack pork belly normcore sartorial waistcoat. "
         email="bergmoa@gmail.com"
