@@ -1,11 +1,11 @@
 import "./grid.css";
-import image from "../../assets/images/yrgo.png";
+//import image from "../../assets/images/yrgo.png";
 import rectangle from "../../assets/images/Rectangle.png";
 import daniel from "../../assets/images/daniel.jpeg";
 import lena from "../../assets/images/lena.jpg";
 import moa from "../../assets/images/moa-min.jpeg";
 import oscar from "../../assets/images/Oscar.jpg";
-//import reka from "../../assets/images/reka.jpeg";
+import reka from "../../assets/images/reka.jpg";
 
 import Card from "../Card";
 
@@ -35,7 +35,7 @@ const Grid = () => {
       />
       <Card
         title="Réka Madarász Webbutvecklare"
-        img={image}
+        img={reka}
         info="Ethical squid yuccie, fingerstache farm-to-table swag 90's green juice jean shorts pug gochujang. Tilde snackwave selvage echo park, lomo offal kombucha 8-bit listicle pickled fanny pack pork belly normcore sartorial waistcoat. "
         email="mreka91@gmail.com"
         color="#CDB4DB"
