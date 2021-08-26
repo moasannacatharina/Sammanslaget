@@ -9,6 +9,9 @@ const Note = (props) => (
     className={`logo ${props.isPlaying && "logo-playing"}`}
   >
     <img src={props.isPlaying ? play : mute} alt="logo" />
+    <p className={`note-text ${props.isPlaying && "text-playing"}`}>
+      Klika på ljudikonen om du vill höra musiken!
+    </p>
   </div>
 );
 
