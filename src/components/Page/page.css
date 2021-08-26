@@ -1,5 +1,6 @@
 .demoPage {
   position: relative;
+  cursor: pointer;
 }
 
 .page-number {

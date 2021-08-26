@@ -18,6 +18,7 @@ const Home = () => {
           setInvisible("false");
         }}
         visible={visible}
+        invisible={invisible}
       />
 
       <div className={`book ${invisible}`}>

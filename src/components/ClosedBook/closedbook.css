@@ -9,6 +9,10 @@
   opacity: 0;
 }
 
+.false {
+  display: none;
+}
+
 .blob {
   background: white;
   border-radius: 50%;
@@ -23,6 +27,7 @@
   left: 55%;
   transform: translateX(-50%) translateY(-40%);
   z-index: 3;
+  cursor: pointer;
 }
 .blob.white {
   background: rgba(255, 255, 255, 0.884);
