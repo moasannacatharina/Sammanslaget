@@ -8,6 +8,9 @@ import gif2 from "../../assets/images/Gif02.gif";
 import gif3 from "../../assets/images/Gif03.gif";
 import gif4 from "../../assets/images/Gif04.gif";
 import gif5 from "../../assets/images/Gif05.gif";
+import gif6 from "../../assets/images/Gif06.png";
+import gif7 from "../../assets/images/Gif07.png";
+
 const Book = () => {
   return (
     <HTMLFlipBook
@@ -61,12 +64,12 @@ Istället för att bli befordrad blir Mika avskedad med omedelbar verkan."
       <Page
         number="5"
         header="Akt 3"
-        image={gif5}
         children="Mika blir av med sin lägenhet och hamnar på de kalla och hårda gatorna. Där strövar han omkring utan något mål eller riktning."
       ></Page>
       <Page
         number="6"
         header="Akt 3"
+        image={gif5}
         even="even"
         children="Årstiderna passerar och Mika blir med tiden allt  mer missmodig. Han rakar sig inte och sover om nätterna på parkbänkar med ett lapptäcke han hittat i en soptunna.
 "
@@ -74,16 +77,23 @@ Istället för att bli befordrad blir Mika avskedad med omedelbar verkan."
       <Page
         number="7"
         header="Akt 4"
+        image={gif6}
         children="En dag springer Mark plötsligt på Mika och tar med honom hem.
 "
       ></Page>
       <Page
         number="8"
         header="Akt 4"
+        image={gif7}
         children="Efter vistelsen hos Mark förändras  Mikas liv till det bättre. Glad i hågen"
       ></Page>
-      <Page number="9" header="The End" children="A nice goodbye ♡"></Page>
-      <Page number="10" even="even"></Page>
+      <Page
+        number="9"
+        header="The End"
+        children="A nice goodbye ♡"
+        image=""
+      ></Page>
+      <Page number="10" even="even" image=""></Page>
       <FrontPage></FrontPage>
     </HTMLFlipBook>
   );
