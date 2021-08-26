@@ -22,8 +22,9 @@ const Book = () => {
       flippingTime={800}
     >
       {/* <FrontPage>Mika</FrontPage> */}
-      <Page></Page>
+      <Page image=""></Page>
       <Page
+        image=""
         even="even"
         header="Förord"
         children={`Vi alla har någon gång känt oss utanför. Det finns dom som är utanför på ett sätt som blir förödande och kräver medmänsklighet för att övervinna. 
