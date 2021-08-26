@@ -8,8 +8,8 @@ import gif2 from "../../assets/images/Gif02.gif";
 import gif3 from "../../assets/images/Gif03.gif";
 import gif4 from "../../assets/images/Gif04.gif";
 import gif5 from "../../assets/images/Gif05.gif";
-import gif6 from "../../assets/images/Gif06.png";
-import gif7 from "../../assets/images/Gif07.png";
+import gif6 from "../../assets/images/Gif06.gif";
+import gif7 from "../../assets/images/Gif07.gif";
 
 const Book = () => {
   return (
