@@ -1,5 +1,6 @@
 .about-container {
   width: 100%;
+  min-height: calc(100vh - 30px);
 }
 
 header {

@@ -2,6 +2,7 @@
   display: grid;
   width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-rows: auto;
 }
 .rectangle-card {
   min-height: 180px;

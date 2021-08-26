@@ -1,5 +1,8 @@
 nav {
-  padding: 10px 0;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  height: 30px;
 }
 
 .link {
