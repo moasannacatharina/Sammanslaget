@@ -1,6 +1,11 @@
 import "./grid.css";
 import image from "../../assets/images/yrgo.png";
 import rectangle from "../../assets/images/Rectangle.png";
+import daniel from "../../assets/images/daniel.jpeg";
+import lena from "../../assets/images/lena.jpg";
+import moa from "../../assets/images/moa-min.jpeg";
+import oscar from "../../assets/images/Oscar.jpg";
+//import reka from "../../assets/images/reka.jpeg";
 
 import Card from "../Card";
 
@@ -9,37 +14,37 @@ const Grid = () => {
     <div className="grid">
       <Card
         title="Lena Last UX-designer"
-        img={image}
+        img={lena}
         info="Ethical squid yuccie, fingerstache farm-to-table swag 90's green juice jean shorts pug gochujang. Tilde snackwave selvage echo park, lomo offal kombucha 8-bit listicle pickled fanny pack pork belly normcore sartorial waistcoat. "
-        email="mail@gmail.com"
+        email="lenalast@gmail.com"
         color="#FFF0C3"
       />
       <Card
         title="Daniel Bradshaw Manusförfattare"
-        img={image}
+        img={daniel}
         info="Ethical squid yuccie, fingerstache farm-to-table swag 90's green juice jean shorts pug gochujang. Tilde snackwave selvage echo park, lomo offal kombucha 8-bit listicle pickled fanny pack pork belly normcore sartorial waistcoat. "
-        email="mail@gmail.com"
+        email="daniel.bradshaw.thorell@gmail.com"
         color="#FCD5CE"
       />
       <Card
         title="Oscar Elmgren Game Artist"
-        img={image}
+        img={oscar}
         info="Ethical squid yuccie, fingerstache farm-to-table swag 90's green juice jean shorts pug gochujang. Tilde snackwave selvage echo park, lomo offal kombucha 8-bit listicle pickled fanny pack pork belly normcore sartorial waistcoat. "
-        email="mail@gmail.com"
+        email="oscar.elmgren@gmail.com"
         color="#D8E2DC"
       />
       <Card
         title="Réka Madarász Webbutvecklare"
         img={image}
         info="Ethical squid yuccie, fingerstache farm-to-table swag 90's green juice jean shorts pug gochujang. Tilde snackwave selvage echo park, lomo offal kombucha 8-bit listicle pickled fanny pack pork belly normcore sartorial waistcoat. "
-        email="mail@gmail.com"
+        email="mreka91@gmail.com"
         color="#CDB4DB"
       />
       <Card
         title="Moa Berg Webbutvecklare"
-        img={image}
+        img={moa}
         info="Ethical squid yuccie, fingerstache farm-to-table swag 90's green juice jean shorts pug gochujang. Tilde snackwave selvage echo park, lomo offal kombucha 8-bit listicle pickled fanny pack pork belly normcore sartorial waistcoat. "
-        email="mail@gmail.com"
+        email="bergmoa@gmail.com"
         color="#CCDBFD"
       />
       <div className="rectangle-card">
