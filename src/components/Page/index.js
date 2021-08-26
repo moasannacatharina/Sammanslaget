@@ -8,7 +8,7 @@ const Page = React.forwardRef((props, ref) => {
       <img
         className="page-img"
         src={props.image}
-        //alt="Mika"
+        alt="Mika"
         onError={(event) => (event.target.style.display = "none")}
       />
       <p className="page-text">{props.children}</p>
