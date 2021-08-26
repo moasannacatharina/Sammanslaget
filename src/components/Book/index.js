@@ -11,6 +11,7 @@ import gif5 from "../../assets/images/Gif05.gif";
 import gif6 from "../../assets/images/Gif06.gif";
 import gif7 from "../../assets/images/Gif07.gif";
 import gif51 from "../../assets/images/Gif5.5.gif";
+import arstid from "../../assets/images/Gif-Arstider.gif";
 
 const Book = () => {
   return (
@@ -42,13 +43,12 @@ const Book = () => {
       ></Page>
       <Page
         number="1"
-        header="Akt 1"
         image={gif1}
-        children="Mika vaknar som vanligt upp i sitt soldränkta sovrum med ett brett leende på läpparna.  Just den här dagen ska komma att bli alldeles speciell."
+        children={`Mika vaknar som vanligt upp i sitt soldränkta sovrum med ett brett leende på läpparna.  
+        \nJust den här dagen ska komma att bli alldeles speciell.`}
       ></Page>
       <Page
         number="2"
-        header="Akt 1"
         even="even"
         image={gif2}
         children="När Mika ränner fram längs gatorna går det undan, han skuttar fram i sin iver inför mötet med
@@ -57,7 +57,6 @@ const Book = () => {
       ></Page>
       <Page
         number="3"
-        header="Akt 2"
         image={gif3}
         children="Väl på kontoret blir Mika överrumplad av chefens burdusa ton
         Mika kan känna av hur hela världen snurrar när chefen meddelar att Mika,
@@ -66,41 +65,34 @@ const Book = () => {
       ></Page>
       <Page
         number="4"
-        header="Akt 2"
         even="even"
         image={gif4}
         children="I och med uppsägningen ställs Mikas liv på ända.
         Mika saknar medel att ta sig samman och tappar så småningom fattningen.
         I sin uppgivenhet och fattigdom tar han till flaskan medan räkningarna tornar upp sig.
         Mika försöker i den mån han kan att repa sig men han klarar helt enkelt inte av att sköta
-        Motgången på egen hand. "
+        motgången på egen hand."
       ></Page>
       <Page
         number="5"
-        header="Akt 3"
-        image=""
-        children={`Mika har nått botten, utan verktygen som krävs för att återhämta sig går allt utför.
+        image={gif5}
+        children="Mika har nått botten, utan verktygen som krävs för att återhämta sig går allt utför.
         Han blir i allt elände av med sin lägenhet och hamnar på de nakna och grymma gatorna som
         inte är välkomnande mot någon.
         Där strövar han omkring i sin ensamhet utan mål eller mening.
-        Det blir vår och det blir sommar, hösten passerar och vintern är sträng.
-
-\nTiden går och Mikas situation blir allt värre, om nätterna sover han på de parkbänkar han
-hittar.
-Han vet inte vart han ska vända sig eller vad han kan göra för att komma tillbaka upp på
-benen igen. Livet känns allt mer hopplöst.`}
+        Det blir vår och det blir sommar, hösten passerar och vintern är sträng."
       ></Page>
       <Page
         number="6"
-        header="Akt 3"
-        image={gif5}
+        image={arstid}
         even="even"
-        children="
-"
+        children="Tiden går och Mikas situation blir allt värre, om nätterna sover han på de parkbänkar han
+        hittar.
+        Han vet inte vart han ska vända sig eller vad han kan göra för att komma tillbaka upp på
+        benen igen. Livet känns allt mer hopplöst."
       ></Page>
       <Page
         number="7"
-        header="Akt 4"
         image={gif6}
         children="En dag springer en godhjärtad kille vid namn Mark plötsligt på Mika.
         Mark känner medlidande och ömhet för Mika som utan varken kärlek eller närhet blivit utstött
@@ -113,18 +105,16 @@ benen igen. Livet känns allt mer hopplöst.`}
       ></Page>
       <Page
         number="8"
-        header="Akt 4"
         image={gif51}
         children="Mark berättar att han tidigare i livet varit i samma situation som Mika men att även om
         det kan kännas hopplöst så måste Mika förstå att det finns hjälp att få men att man måste
         vara beredd att våga ta emot den.
-        Under några intensiva månader så tränar Mike och Mark regelbundet ihop, de lyfter vikter,
+        Under några intensiva månader så tränar Mika och Mark regelbundet ihop, de lyfter vikter,
         springer och äter hälsosam kost.
 "
       ></Page>
       <Page
         number="9"
-        header="Akt 4"
         image={gif7}
         children="Med tiden blir Mika mer och mer lik sitt gamla frodiga jag och de båda blir goda vänner.
         Efter vistelsen hos Mark förändras Mikas liv till det bättre. Glad i hågen och med nytt mod
