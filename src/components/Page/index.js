@@ -12,7 +12,11 @@ const Page = React.forwardRef((props, ref) => {
         alt="Mika"
         onError={(event) => (event.target.style.display = "none")}
       />
+
       <p className="page-text">{props.children}</p>
+      <a className="page-link" href={props.url}>
+        {props.link}
+      </a>
       <p className="page-number">{props.number}</p>
     </div>
   );

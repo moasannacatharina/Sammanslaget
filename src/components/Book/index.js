@@ -126,8 +126,10 @@ const Book = () => {
         alltid hjälp att få. Räddningsmissionen bedriver ett 30-tal olika verksamheter för att hjälpa
         utsatta i samhället. 
         \nDe jobbar med akuta, långsiktiga samt förebyggande insatser.
-        \nBesök Räddningsmissions hemsida. ♡`}
+        \n`}
         image=""
+        url="https://raddningsmissionen.se/"
+        link="Besök Räddningsmissions hemsida ♡"
         even="even"
       ></Page>
 
