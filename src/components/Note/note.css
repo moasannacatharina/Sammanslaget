@@ -18,3 +18,12 @@
     transform: translateY(-10px);
   }
 }
+
+.note-text {
+  color: white;
+  font-family: Poppins;
+  margin: 0;
+}
+.text-playing {
+  display: none;
+}

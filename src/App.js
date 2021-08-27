@@ -8,8 +8,8 @@ import music from "./assets/sound/my-life-main.mp3";
 import Note from "./components/Note";
 
 const App = () => {
-  const [isPlaying, setIsPlaying] = useState(true);
-
+  const [isPlaying, setIsPlaying] = useState(false);
+  console.log(isPlaying);
   return (
     <div className="App">
       <Navigation />
