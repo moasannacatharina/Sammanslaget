@@ -118,18 +118,17 @@ const Book = () => {
         kan Mika med hjälpen från sin nya vän återgå till sitt självgående liv. Den här gången är
         han stärkt av vetskapen att det alltid finns hjälp runt hörnet för den som behöver det."
       ></Page>
-      <Page
-        number="10"
-        header="Epilog"
-        children={`Om du eller någon du möter befinner sig i en liknande situation som Mikas så finns det
-        alltid hjälp att få. Räddningsmissionen bedriver ett 30-tal olika verksamheter för att hjälpa
-        utsatta i samhället. 
-        \nDe jobbar med akuta, långsiktiga samt förebyggande insatser.`}
-        image=""
-        url="https://raddningsmissionen.se/"
-        link="Besök Räddningsmissions hemsida ♡"
-        even="even"
-      ></Page>
+      <Page number="10" header="Epilog" image="" even="even">
+        Om du eller någon du möter befinner sig i en liknande situation som
+        Mikas så finns det alltid hjälp att få. Räddningsmissionen bedriver ett
+        30-tal olika verksamheter för att hjälpa utsatta i samhället.
+        <br />
+        <br />
+        De jobbar med akuta, långsiktiga samt förebyggande insatser.
+        <br /> <br />
+        Besök Räddningsmissionens
+        <a href="https://raddningsmissionen.se/"> hemsida ♡</a>
+      </Page>
 
       <FrontPage></FrontPage>
     </HTMLFlipBook>

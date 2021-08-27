@@ -24,10 +24,12 @@
   max-height: 250px;
 }
 
-.page-link {
-  color: #e07c3e;
+a {
+  color: #ca743e;
   font-family: Poppins;
   font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
 }
 .blob {
   background: white;
