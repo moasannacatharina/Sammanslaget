@@ -27,7 +27,7 @@ const Grid = () => {
         name="Daniel Bradshaw Thorell"
         title="Manusförfattare"
         img={daniel}
-        info="Som manusförfattare i det här projektet har min roll inneburit att utveckla berättelsen samt narrativ. I samarbete med Game Artist har jag hjälpt till att skissa upp bilder i relation till texterna och under projektets gång utbytt idéer av hur illustrationerna ska korrelera med texten."
+        info="Som Manusförfattare i projektet har min roll inneburit utveckling och skapande av berättelsen, göra storyboard och att skriva manus. I samarbete med Game Artist har jag hjälpt till att skissa upp bilder i relation till texterna och under projektets gång också utbytt idéer av hur illustrationerna ska korrelera med texten."
         email="daniel.bradshaw.thorell@gmail.com"
         color="#FCD5CE"
       />

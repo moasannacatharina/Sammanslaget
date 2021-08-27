@@ -14,7 +14,7 @@ const Card = ({ img, name, title, email, info, color }) => {
         </div>
       </div>
 
-      <p>{info}</p>
+      <p className="info">{info}</p>
     </div>
   );
 };
