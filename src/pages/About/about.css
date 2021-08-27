@@ -23,6 +23,10 @@ header {
   justify-content: center;
 }
 
+header {
+  padding: 0 0 10px 0;
+}
+
 footer img {
   border-radius: 50%;
   height: 50px;
