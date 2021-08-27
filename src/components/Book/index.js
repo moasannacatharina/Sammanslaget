@@ -31,7 +31,7 @@ const Book = () => {
       <Page
         image=""
         even="even"
-        header="Förord"
+        header="Prolog"
         children={`Alla har vi någon gång känt oss utanför på något sätt. För vissa personer kan utanförskapet
         bli förödande och då krävs det medmänsklighet för att man ska kunna komma tillbaka upp på
         fötterna.
@@ -121,7 +121,7 @@ const Book = () => {
       ></Page>
       <Page
         number="10"
-        header="The End"
+        header="Epilog"
         children={`Om du eller någon du stöter på befinner dig i en liknande situation som Mikas så finns det
         alltid hjälp att få. Räddningsmissionen bedriver ett 30-tal olika verksamheter för att hjälpa
         utsatta i samhället. 
