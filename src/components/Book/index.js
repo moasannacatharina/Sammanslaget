@@ -105,7 +105,7 @@ const Book = () => {
         image={gif51}
         even="even"
         children="Mark berättar att han tidigare i livet varit i samma situation som Mika men att även om
-        det kan kännas hopplöst så måste Mika förstå att det finns hjälp att få man måste bara
+        det kan kännas hopplöst så måste Mika förstå att det finns hjälp att få. Man måste bara
         vara beredd att våga ta emot den.
         Under några intensiva månader så tränar Mika och Mark regelbundet ihop, de lyfter vikter,
         springer, äter hälsosam kost och pratar om hur man ska hantera motgångar."
