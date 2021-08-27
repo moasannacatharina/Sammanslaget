@@ -126,10 +126,11 @@ const Book = () => {
         alltid hjälp att få. Räddningsmissionen bedriver ett 30-tal olika verksamheter för att hjälpa
         utsatta i samhället. 
         \nDe jobbar med akuta, långsiktiga samt förebyggande insatser.
-        \nBesök deras hemsida på raddningsmissonen.se. ♡`}
+        \nBesök Räddningsmissions hemsida. ♡`}
         image=""
         even="even"
       ></Page>
+
       <FrontPage></FrontPage>
     </HTMLFlipBook>
   );

@@ -23,7 +23,7 @@ const App = () => {
           isPlaying={isPlaying}
           handleOnClick={() => setIsPlaying(!isPlaying)}
         />
-        <audio src={music} muted={!isPlaying} loop />
+        <audio src={music} muted={!isPlaying} autoPlay={true} loop />
       </div>
     </div>
   );
