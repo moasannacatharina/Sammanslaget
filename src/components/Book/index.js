@@ -124,9 +124,10 @@ const Book = () => {
         children={`Om du eller någon du möter befinner sig i en liknande situation som Mikas så finns det
         alltid hjälp att få. Räddningsmissionen bedriver ett 30-tal olika verksamheter för att hjälpa
         utsatta i samhället. 
-        \nDe jobbar med akuta, långsiktiga samt förebyggande insatser.
-        \nBesök Räddningsmissionens hemsida. ♡`}
+        \nDe jobbar med akuta, långsiktiga samt förebyggande insatser.`}
         image=""
+        url="https://raddningsmissionen.se/"
+        link="Besök Räddningsmissions hemsida ♡"
         even="even"
       ></Page>
 

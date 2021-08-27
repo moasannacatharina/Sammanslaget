@@ -24,6 +24,11 @@
   max-height: 250px;
 }
 
+.page-link {
+  color: #e07c3e;
+  font-family: Poppins;
+  font-size: 18px;
+}
 .blob {
   background: white;
   border-radius: 50%;
